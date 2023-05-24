@@ -1,0 +1,72 @@
+body {
+  color: #000;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  object-fit: contain;
+/*   cursor: url(/src/img/hammer.png), pointer;
+ */  
+ cursor: crosshair;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+.hole {
+  /* display:block; */
+  display: flex;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  width: 25%;
+  min-width: 150px;
+  min-height: 150px;
+  
+  border: 3px solid #999;
+}
+
+.score-board {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+  
+
+  justify-content: space-around;
+
+  /* box-sizing: border-box; */
+
+  /* width: 50%; */
+  /* min-width: 150px; */
+  /* min-height: 150px; */
+  
+  /* border: 3px solid #999; */
+}
+
+.scores, .misses {
+  display: flex;
+  /* justify-items: left; */
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+  width: 25%;
+
+  /* width: 40%; */
+
+  /* justify-content: space-between; */
+  justify-content: space-around;
+
+
+  border: 3px solid #999;
+
+}
