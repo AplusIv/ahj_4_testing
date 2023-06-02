@@ -1,6 +1,14 @@
 import defineCardSystem from './defineCardSystem';
 import luhnValidate from './luhnValidate';
 
+import visa from '../img/visa.png';
+import mir from '../img/mir.png';
+import amex from '../img/amex.png';
+import dinersClub from '../img/diners_club.png';
+import discover from '../img/discover.png';
+import jcb from '../img/jcb.png';
+import mastercard from '../img/mastercard.png';
+
 export default class CreditCardWidget {
   constructor(element) {
     this.element = element;
@@ -14,13 +22,13 @@ export default class CreditCardWidget {
       <h2>Check your credit card number</h2>
       <div class="form-container">
         <ul class="cards">
-          <li class="card visa" title="Visa"><img class="visa-logo" src="../img/visa.png"></li>
-          <li class="card master" title="Mastercard"><img class="mastercard-logo" src="../img/mastercard.png"></li>
-          <li class="card amex" title="American Express"><img class="amex-logo" src="../img/amex.png"></li>
-          <li class="card discover" title="Discover"><img class="discover-logo" src="../img/discover.png"></li>
-          <li class="card jcb" title="JCB"><img class="jcb-logo" src="../img/jcb.png"></li>
-          <li class="card diners_club" title="Diners Club"><img class="diners-club-logo" src="../img/diners_club.png"></li>
-          <li class="card mir" title="Mir"><img class="mir-logo" src="../img/mir.png"></li>
+          <li class="card visa" title="Visa"><img class="visa-logo" src=${visa}></li>
+          <li class="card master" title="Mastercard"><img class="mastercard-logo" src=${mastercard}></li>
+          <li class="card amex" title="American Express"><img class="amex-logo" src=${amex}></li>
+          <li class="card discover" title="Discover"><img class="discover-logo" src=${discover}></li>
+          <li class="card jcb" title="JCB"><img class="jcb-logo" src=${jcb}></li>
+          <li class="card diners_club" title="Diners Club"><img class="diners-club-logo" src=${dinersClub}></li>
+          <li class="card mir" title="Mir"><img class="mir-logo" src=${mir}></li>
         </ul>
         <form class="form-widget">
           <div class="form-group">

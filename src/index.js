@@ -1,4 +1,7 @@
 import './css/style.css';
 import './js/app';
 
-// import licences from '../licences.txt'
+// import licences from '../licences.txt';
+/* ??? Не совсем понимаю, что нужно сделать с файлом licences.txt: что он должен содержать,
+в каком именно виде, как подключаться и где размещаться.
+Пока, как я понимаю, у меня вебпак не видит txt. Что нужно дополнительно подключить? */

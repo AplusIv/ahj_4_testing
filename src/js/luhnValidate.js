@@ -8,6 +8,7 @@ export default function luhnValidate(value) {
 
   for (let n = cleanValue.length - 1; n >= 0; n -= 1) {
     let nDigit = parseInt(cleanValue.charAt(n), 10);
+    // eslint-disable-next-line no-cond-assign
     if (bEven && (nDigit *= 2) > 9) {
       nDigit -= 9;
     }
