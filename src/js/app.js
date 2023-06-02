@@ -1,17 +1,14 @@
-import Clicker from './clicker';
-import GameField from './gameField';
-import movingHandler from './movement';
-// import img from '../img/hammer.png'
+import visa from '../img/visa.png';
+import mir from '../img/mir.png';
+import amex from '../img/amex.png';
+import dinersClub from '../img/diners_club.png';
+import discover from '../img/discover.png';
+import jcb from '../img/jcb.png';
+import mastercard from '../img/mastercard.png';
 
-const goblinImg = document.createElement('img');
-goblinImg.src = 'https://raw.githubusercontent.com/AplusIv/ahj-homeworks/simplification/dom/pic/goblin.png';
-goblinImg.alt = 'Goblin pic';
+import CreditCardWidget from './creditCardWidget';
 
-const gameField = new GameField('container', 15, goblinImg, movingHandler);
-gameField.renderField();
-gameField.renderImg();
+const container = document.querySelector('.container');
 
-const clicker = new Clicker(gameField);
-console.log(clicker);
-
-// document.body.appendChild(img);
+const creditCardWidget = new CreditCardWidget(container);
+creditCardWidget.bindToDom();

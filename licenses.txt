@@ -1,0 +1,8 @@
+visa logo: https://icons8.com/icon/13608/visa
+mastercard logo: https://icons8.com/icon/62765/mastercard-logo
+american express logo: https://icons8.com/icon/13607/american-express
+diners club logo: https://icons8.com/icon/4IbRVaTXEc_O/diners-club
+jcb logo: https://vectorlogofree.com/wp-content/uploads/2014/08/2039-jcb-icon-vector-icon-vector-eps.png
+mir logo: https://icons8.com/icon/59239/mir
+discover logo: https://cdn2.iconfinder.com/data/icons/credit-cards-6/156/discover-256.png
+
